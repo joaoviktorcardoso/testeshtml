@@ -1,0 +1,32 @@
+@charset "UTF-8";
+header {
+    text-align: center; /* Centraliza horizontalmente o conteúdo do cabeçalho */
+    background-color: black;
+  }
+  
+  .logo-container {
+    margin-bottom: 20px; /* Adiciona um espaçamento entre a logo e os elementos h1 */
+  }
+  
+  .container {
+    margin: 0 auto; /* Centraliza o contêiner inteiro na página */
+    max-width: 800px; /* Define a largura máxima do contêiner para evitar que ocupe toda a largura da tela */
+  }
+  
+  .content-clearfix {
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Centraliza os elementos dentro do contêiner pai */
+  }
+  
+  .h1-p-container {
+    margin-right: 40px;
+  }
+  
+  h1, p {
+    margin: 0;
+    margin-right: 40px;
+    color: white;
+    padding: 40px;
+  }
+  
